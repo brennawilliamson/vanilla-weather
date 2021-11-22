@@ -13,6 +13,7 @@
     />
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -26,10 +27,10 @@
       <div class="weather-app">
         <div class="weather-app-wrapper">
           <div class="overview">
-            <h1>Aston</h1>
+            <h1 id="city">New York</h1>
             <ul>
               <li>Friday 12:17</li>
-              <li>Partly Cloudy</li>
+              <li id="description">Partly Cloudy</li>
             </ul>
           </div>
           <div class="row">
@@ -41,7 +42,7 @@
                   class="float-left"
                 />
                 <div class="float-left">
-                  <strong>9</strong
+                  <strong id="temperature">9</strong
                   ><span class="units">°C | <a href="#">°F</a></span>
                 </div>
               </div>
@@ -49,9 +50,8 @@
 
             <div class="col-6">
               <ul>
-                <li>Preciptiation: 1%</li>
-                <li>Humidity: 71%</li>
-                <li>Wind: 11km/h</li>
+                <li>Humidity: <span id="humidity"></span>%</li>
+                <li>Wind: <span id="wind"></span> km/h</li>
               </ul>
             </div>
           </div>

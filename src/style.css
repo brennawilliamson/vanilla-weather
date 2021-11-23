@@ -32,10 +32,11 @@ li:first-letter {
 }
 
 .weather-app-wrapper {
-  max-width: 650px;
-  margin: 30px auto;
+  max-width: 600px;
+  margin: 25px auto;
 }
 .weather-app {
+  max-width: 600px;
   padding: 40px;
   background: radial-gradient(
     circle at 0.1% 99.8%,

@@ -59,14 +59,14 @@ li:first-letter {
 }
 
 .weather-temperature strong {
-  color: white;
+  color: #ffffff;
   font-size: 45px;
 }
 
 .weather-temperature .units {
   position: relative;
   font-size: 15px;
-  top: -20px;
+  top: -22px;
   color: white;
 }
 
@@ -77,6 +77,9 @@ li:first-letter {
   font-size: 11px;
 }
 
+.f-link {
+  text-decoration: none;
+}
 .weather-temperature .active {
   color: white;
   cursor: default;

@@ -14,7 +14,7 @@ h1 {
 
 li {
   list-style: none;
-  color: #ffffff;
+  color: #48484a;
   font-size: 16px;
   font-weight: 500;
   line-height: 19px;
@@ -36,7 +36,7 @@ li:first-letter {
   margin: 25px auto;
 }
 .weather-app {
-  max-width: 700px;
+  max-width: 650px;
   padding: 40px;
   background: radial-gradient(
     circle at 0.1% 99.8%,
@@ -106,9 +106,13 @@ li:first-letter {
   font-size: 13px;
 }
 
-.weather-temp-high {
-}
-
 .weather-temp-low {
   opacity: 0.6;
+}
+
+.current-location-button {
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  margin-top: 20px;
 }

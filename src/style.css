@@ -11,6 +11,25 @@ h1 {
   padding-top: 20px;
   font-weight: 900;
 }
+h2 {
+  list-style: none;
+  color: #48484a;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 19px;
+  margin-bottom: 10;
+}
+
+h3 {
+  color: white;
+  font-weight: 300;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: -10px;
+  position: relative;
+  left: 15px;
+}
 
 li {
   list-style: none;
@@ -19,6 +38,9 @@ li {
   font-weight: 500;
   line-height: 19px;
   margin-bottom: 0;
+  position: relative;
+  left: 50px;
+  text-align: center;
 }
 
 ul {
@@ -26,12 +48,8 @@ ul {
   padding: 0;
 }
 
-li:first-letter {
+h3:first-letter {
   text-transform: capitalize;
-}
-
-.conditions {
-  color: white;
 }
 
 .weather-app-wrapper {

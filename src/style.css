@@ -4,31 +4,35 @@ body {
 
 h1 {
   font-weight: 600;
-  font-size: 40px;
+  font-size: 44px;
   line-height: 48px;
   color: #ffffff;
   padding-right: 30px;
   padding-top: 20px;
   font-weight: 900;
+  margin-bottom: 18px;
+  margin-top: 15px;
+  text-align: center;
 }
 h2 {
   list-style: none;
   color: #48484a;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 16px;
   line-height: 19px;
-  margin-bottom: 10;
+  font-weight: 500;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 h3 {
   color: white;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   margin-top: 20px;
   margin-bottom: -10px;
   position: relative;
-  left: 15px;
+  left: 11px;
 }
 
 li {
@@ -64,7 +68,7 @@ h3:first-letter {
     rgb(0, 164, 189) 0%,
     rgb(0, 189, 165) 90%
   );
-  box-shadow: 0 8px 32px 0 rgba(124, 86, 89, 0.37);
+  box-shadow: 0 10px 42px 0 rgba(15, 14, 22, 0.37);
   backdrop-filter: blur(8px);
   border-radius: 10px;
 }

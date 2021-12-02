@@ -5,25 +5,33 @@ function formatDate(timestamp) {
   if (minutes < 10) {
     minutes = `0${minutes}`;
   }
-  let days = ["Sun", "Mon", "Tue", "Wed", "Thur", "Fri", "Sat"];
+  let days = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+  ];
   let day = days[date.getDay()];
   let months = [
-    "Jan",
-    "Feb",
-    "Mar",
-    "Apr",
+    "January",
+    "February",
+    "March",
+    "April",
     "May",
-    "Jun",
-    "Jul",
-    "Aug",
-    "Sep",
-    "Oct",
-    "Nov",
-    "Dec",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
   ];
   let month = months[date.getMonth()];
   let currentDate = date.getDate();
-  return `${day} ${month} ${currentDate} ${date.toLocaleString("en-US", {
+  return `${day}, ${month}, ${currentDate} at ${date.toLocaleString("en-US", {
     hour: "numeric",
     minute: "numeric",
     hour12: true,
@@ -36,9 +44,6 @@ function formatDay(timestamp) {
 
   return days[day];
 }
-// convert to standard time
-
-//
 
 function displayForecast(response) {
   let forecast = response.data.daily;
@@ -133,7 +138,7 @@ function displayFarenheitTemperature(event) {
 
 function searchLocation(position) {
   let openWeatherKey = "ec69812db7fd144177914635cab17886";
-  let openWeatherUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}&appid=${openWeatherKey}&units=metric`;
+  let openWeatherUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}&appid=${openWeatherKey}&units=imperial`;
 
   axios.get(openWeatherUrl).then(displayTemperature);
 }

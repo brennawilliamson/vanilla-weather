@@ -121,3 +121,9 @@ h3:first-letter {
 .weather-temp-low {
   opacity: 0.6;
 }
+
+@media (max-width: 720px) {
+  .btn {
+    font-size: 10px;
+  }
+}

@@ -122,7 +122,7 @@ h3:first-letter {
   opacity: 0.6;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 720px) {
   .form-control {
     font-size: 10px;
     margin: 0;
@@ -130,8 +130,7 @@ h3:first-letter {
 
   .btn {
     font-size: 10px;
-    padding: 4px 4px;
-    margin: 0;
+    padding: 4px 8px;
   }
 
   .weather-temperature strong {

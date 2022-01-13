@@ -122,8 +122,37 @@ h3:first-letter {
   opacity: 0.6;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 960px) {
+  .form-control {
+    font-size: 10px;
+    margin: 0;
+  }
+
   .btn {
     font-size: 10px;
+    padding: 4px 4px;
+    margin: 0;
+  }
+
+  .weather-temperature strong {
+    font-size: 33px;
+  }
+
+  .weather-temperature .units {
+    display: block;
+    margin: -20px 0px 0px 40px;
+  }
+  li {
+    font-size: 12px;
+    padding-right: 25px;
+  }
+
+  .weather-forecast-day {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .weather-forecast-temperatures {
+    font-size: 12px;
   }
 }

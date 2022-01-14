@@ -130,14 +130,15 @@ h3:first-letter {
 
   .btn {
     font-size: 10px;
-    padding: 4px 6px;
+    padding: 3px 6px;
     margin-left: -5px;
     margin-top: 1px;
   }
 
   #current-location-button {
     font-size: 6px;
-    padding: 7px;
+    font-weight: 600;
+    padding: 6px;
   }
   .weather-temperature strong {
     font-size: 33px;
